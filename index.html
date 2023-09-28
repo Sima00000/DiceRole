@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>DiceRoll</title>
+  </head>
+  <body>
+    <div id="outer">
+      <div class="outerdiv" flex>
+        <div>
+          <span>First Team</span>
+          <div class="innerdiv1">
+            <p id="p1">0</p>
+          </div>
+       </div>
+       <div>
+          <span>Second Team</span>
+          <div class="innerdiv2">
+            <p id="p2">0</p>
+          </div>
+       </div>
+      </div>
+      <div  class="Team">
+        <div id="total1">Team 1 score --> <span>0</span></div>
+        <div id="total2">Team 2 score --> <span>0</span></div>
+      </div>
+
+      <button id="btn" onclick="roll()">Roll</button>
+    </div>
+  </body>
+</html>
+<script src="script.js"></script>

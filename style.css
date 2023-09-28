@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  background-image: url('photo-1605870445919-838d190e8e1b.jpg');
+}
+.innerdiv1, .innerdiv2 {
+    background-color: Aqua;
+    width: 50px;
+    height: 50px;
+    border: solid 2px;
+    margin: 20px;
+      display: flex;
+      justify-content: center;
+}
+.outerdiv {      
+
+    margin: 20px;
+      display: flex;
+      justify-content: center;
+}
+#outer{
+padding: 20px;
+background: orange;
+}
+
+#btn{
+padding:20px 40px;
+font-size: 15px;
+display: block;
+margin: auto;
+border: 3px solid red;
+}
+.Team {
+ margin-left: 50px;
+ margin-bottom: 50px;
+ font-size: 20px;
+
+}
